@@ -19,5 +19,5 @@ jobs:
         run: |
           $test=.\powershll.ps1
           Write-Host "action"
-          $tes
+          $ht
           Write-Host "action complete"
