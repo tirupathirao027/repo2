@@ -18,4 +18,6 @@ jobs:
       - name: store variable
         run: |
           $test=.\powershll.ps1
+          Write-Host "action"
           $tes
+          Write-Host "action complete"
