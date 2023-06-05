@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v2
       - name: store variable
         run: |
-          write-output "test"
+          write-output ${{env.var1}}
