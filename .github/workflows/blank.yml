@@ -1,10 +1,7 @@
 name: validate
 
 on:
-  workflow_dispatch:
-env: 
-  NewRepo: 'repo2'
-  
+  workflow_call:
   
   
 jobs:
@@ -17,7 +14,4 @@ jobs:
         uses: actions/checkout@v2
       - name: store variable
         run: |
-          $test=$(&".\powershll.ps1" -pet test)
-          Write-Host "action"
-          $test
-          Write-Host "action complete"
+          write-output "test"
