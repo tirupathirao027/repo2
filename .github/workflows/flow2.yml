@@ -2,7 +2,7 @@ name: validate
 
 on:
   workflow_call:
-  #workflow_dispatch:
+  workflow_dispatch:
     inputs:
       gggg:
         required: true
