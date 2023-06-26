@@ -4,7 +4,40 @@ on:
   workflow_dispatch:
  # workflow_call:
     inputs:
-      gggg:
+      test1:
+        required: true
+        type: string
+      test2:
+        required: true
+        type: string
+      test3:
+        required: true
+        type: string
+      test4:
+        required: true
+        type: string
+      test5:
+        required: true
+        type: string
+      test6:
+        required: true
+        type: string
+      test7:
+        required: true
+        type: string
+      test8:
+        required: true
+        type: string
+      test9:
+        required: true
+        type: string
+      test10:
+        required: true
+        type: string
+      test11:
+        required: true
+        type: string
+      test12:
         required: true
         type: string
   
